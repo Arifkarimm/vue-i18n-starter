@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <h2>Hello World</h2>
+    <HelloI18n />
   </div>
 </template>
 
 <script>
+import HelloI18n from "./components/HelloI18n.vue";
+
 export default {
-  name: "App"
+  name: "App",
+  components: {
+    HelloI18n,
+  },
 };
 </script>
 
