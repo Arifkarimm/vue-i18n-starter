@@ -1,7 +1,7 @@
 <template>
   <div class="nav-menu">
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
+    <router-link :to="`/${$i18n.locale}`">Home</router-link>
+    <router-link :to="`/${$i18n.locale}/about`">About</router-link>
   </div>
 </template>
 
