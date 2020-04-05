@@ -1,10 +1,12 @@
-import Vue from 'vue'
-import App from './App.vue'
-import i18n from './i18n'
+import Vue from "vue";
+import App from "./App.vue";
+import i18n from "./i18n";
+import router from "./router";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
   i18n,
-  render: h => h(App)
-}).$mount('#app')
+  router,
+  render: (h) => h(App),
+}).$mount("#app");

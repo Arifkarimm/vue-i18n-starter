@@ -1,16 +1,21 @@
 <template>
   <div id="app">
     <HelloI18n />
+
+    <Navbar />
+    <router-view />
   </div>
 </template>
 
 <script>
 import HelloI18n from "./components/HelloI18n.vue";
+import Navbar from "./components/Navbar.vue";
 
 export default {
   name: "App",
   components: {
     HelloI18n,
+    Navbar,
   },
 };
 </script>
