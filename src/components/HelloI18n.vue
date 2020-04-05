@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>{{ $t("hello") }}</p>
-    <p>{{ $t("message") }}</p>
+    <p>{{ $t("nav.features") }}</p>
   </div>
 </template>
 
