@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <LanguageSwitch />
     <HelloI18n />
 
     <Navbar />
@@ -10,12 +11,14 @@
 <script>
 import HelloI18n from "./components/HelloI18n.vue";
 import Navbar from "./components/Navbar.vue";
+import LanguageSwitch from "@/components/LanguageSwitch.vue";
 
 export default {
   name: "App",
   components: {
     HelloI18n,
     Navbar,
+    LanguageSwitch,
   },
 };
 </script>
