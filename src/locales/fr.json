@@ -2,5 +2,9 @@
   "message": "hello i18n !!",
   "nav": {
     "features": "features France"
+  },
+  "about": {
+    "title": "About France",
+    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio cum explicabo dolorem reprehenderit dolores in animi facilis. Doloribus ab quo incidunt dolor aliquid a molestiae quibusdam animi aliquam. Ipsam, nobis!"
   }
 }
