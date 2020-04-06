@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>{{ $t("about.title") }}</p>
-    <p>{{ $t("about.content") }}</p>
+    <p v-html="$t('about.content')" />
   </div>
 </template>
 
@@ -9,4 +9,8 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.test {
+  color: tomato;
+}
+</style>

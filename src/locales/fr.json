@@ -5,6 +5,6 @@
   },
   "about": {
     "title": "About France",
-    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio cum explicabo dolorem reprehenderit dolores in animi facilis. Doloribus ab quo incidunt dolor aliquid a molestiae quibusdam animi aliquam. Ipsam, nobis!"
+    "content": "Lorem ipsum dolor sit, <a href='#' class='test'>amet</a> consectetur adipisicing elit. Distinctio cum explicabo dolorem reprehenderit dolores in animi facilis. Doloribus ab quo incidunt dolor aliquid a molestiae quibusdam animi aliquam. Ipsam, nobis!"
   }
 }
